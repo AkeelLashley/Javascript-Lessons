@@ -195,16 +195,20 @@ forLoopArray()
 
 
 
-// function ArrayExample() {
-//                 //  0        1      2      3 index
-//     let colours = ["red", "blue", "green", "yellow"]
-//     // colours.push("blue")
-//     colours.splice(0,3);
-    
+function ArrayExample() {
+let introduction = [ "Hello00000 ", "my ", "name0000 ", "is", "Akee000l"]
 
-//     console.log(colours) // 
-//     console.log(colours[1])
-// }
+    for(let i=0; i < introduction.length; i++) {
+    
+        if(introduction[i].trim().length > 4) {
+            console.log("long word Alert")
+        } else {
+            console.log("Short word alert")
+        }
+    }
+
+}
+ArrayExample()
 
 
 
